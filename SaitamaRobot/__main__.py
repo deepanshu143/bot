@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="🗄 Help",
-                                url="https://t.me/Doraenob_bot?startgroup=true",
+                                url="https://t.me/Doraenob_bot?start=help",
                             ),
                         ],
                         [
