@@ -97,7 +97,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/d65c5e7355eae3fa32287.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add me",
+                                text="☑️ Add Doraemon to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
@@ -232,13 +232,13 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
-                                url="https://t.me/OnePunchUpdates",
+                                url="https://t.me/cartoonnetworkworl",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🧾 Getting Started",
-                                url="https://t.me/OnePunchUpdates/29",
+                                text="🧾 Logs",
+                                url="https://t.me/cartoonnetworkworl",
                             ),
                             InlineKeyboardButton(
                                 text="🗄 Source code",
@@ -247,8 +247,8 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="☠️ Kaizoku Network",
-                                url="https://t.me/Kaizoku/4",
+                                text="☠️ My Master",
+                                url="https://t.me/Shinchanloverrrr",
                             ),
                         ],
                     ],
