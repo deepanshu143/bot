@@ -241,8 +241,8 @@ def start(update: Update, context: CallbackContext):
                                 url="https://t.me/cartoonnetworkworl",
                             ),
                             InlineKeyboardButton(
-                                text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                                text="🗄 Help",
+                                url="https://t.me/Doraenob_bot?startgroup=true",
                             ),
                         ],
                         [
