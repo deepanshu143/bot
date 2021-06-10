@@ -97,7 +97,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-DORAEMON_IMG = "https://telegra.ph/file/94f9eb36f484a0aa39c3c.jpg"
+DORAEMON_IMG = "https://telegra.ph/file/6d39b0aa3cf6b06d4669e.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
