@@ -242,8 +242,7 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="🗄 Help",
-                                url="https://t.me/{}?start=help".format(
-                                    context.bot.username,
+                                url="https://t.me/dorauser_bot?start=help",
                             ),
                         ],
                         [
