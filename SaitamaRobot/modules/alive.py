@@ -15,7 +15,7 @@ import re, os
 from SaitamaRobot.events import register
 from SaitamaRobot import telethn as tbot
 from SaitamaRobot import telethn as tgbot
-PHOTO = "https://telegra.ph/file/3cc3e9ab5ff0456671ac4.jpg"
+PHOTO = "https://telegra.ph/file/7fea2057e93fa171e2db9.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   legendx = event.sender.first_name
