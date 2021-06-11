@@ -220,8 +220,8 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="☑️ Add Doraemon to your group",
-                                url="t.me/{}?startgroup=true".format(
-                                    context.bot.username,
+                                url="t.me/dorauser_bot?startgroup=true",
+                               
                                 ),
                             ),
                         ],
