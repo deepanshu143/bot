@@ -78,7 +78,7 @@ Built by weebs for weebs, I specialize in managing anime eccentric communities!
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm a Anime themed group manager bot and help admins manage their groups with Punch! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -97,7 +97,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-DORAEMON_IMG = "https://telegra.ph/file/6d39b0aa3cf6b06d4669e.jpg"
+DORAEMON_IMG = "https://telegra.ph/file/7fea2057e93fa171e2db9.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add Doraemon to your group",
+                                text="☑️ Add me",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
@@ -241,14 +241,14 @@ def start(update: Update, context: CallbackContext):
                                 url="https://t.me/cartoonnetworkworl",
                             ),
                             InlineKeyboardButton(
-                                text="🗄 Help",
-                                url="https://t.me/dorauser_bot?start=help",
+                                text="❓ Help",
+                                url="https://t.me/doraeuser_bot?start=help",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="☠️ My Master",
-                                url="https://t.me/Shinchanloverrrr",
+                                url="https://t.me/Animellloverrr",
                             ),
                         ],
                     ],
