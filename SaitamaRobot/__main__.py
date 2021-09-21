@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="❓ Help",
-                                url="https://t.me/doraeuser_bot?start=help",
+                                url="https://t.me/Doraemonmanag_bot?start=help",
                             ),
                         ],
                         [
